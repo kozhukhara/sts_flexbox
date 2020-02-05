@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay:400,700&display=swap');
+
+body {
+    margin: 0 auto;
+    background: #eea;
+    width: 85%;
+    max-width: 1280px;
+    height: 100%;
+    font-family: 'Cambay', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    background: #46b3e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu {
+    padding: 0px 15px;
+    min-width: 150px;
+    width: 15%;
+    max-width: 15%;
+    height: 100%;
+    background: #4d80e4;
+}
+
+.content {
+    padding: 0px 15px;
+    width: 85%;
+    height: 100%;
+    overflow-y: scroll;
+    background: #eee;
+    text-align: justify;
+}
+
+.footer {
+    background: #2e279d;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
